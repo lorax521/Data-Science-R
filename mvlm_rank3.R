@@ -5,7 +5,7 @@ mvlm_rank3 <- function(dep, inds) {
   
   :param dep: dataframe index; the column index of the dependent variable. Ex: df[11] 
   :param inds: dataframe indicies; the indicies of the independent variables. Ex: df[c(4:9)]
-  :return df: dataframe; a dataframe containing all permutations of covariates ranked by AIC decending.
+  :return dfout: dataframe; a dataframe containing all permutations of covariates ranked by AIC decending.
   :dependencies: library(stats)
   "
   ifTrue <- function(dat) {
